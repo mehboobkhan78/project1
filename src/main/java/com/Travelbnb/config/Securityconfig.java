@@ -14,7 +14,7 @@ public class Securityconfig {
         this.jwtToken = jwtToken;
     }
     @Bean
-    public SecurityFilterChain sfcSecur ity(HttpSecurity http) throws Exception{
+    public SecurityFilterChain sfcSecurity(HttpSecurity http) throws Exception{
 
         http.csrf().disable().cors().disable();
         http.addFilterBefore(jwtToken, AuthorizationFilter.class);
