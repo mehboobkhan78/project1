@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TravelBnbApplication {
 
 	public static void main(String[] args) {
+		int i =100;
 		SpringApplication.run(TravelBnbApplication.class, args);
 	}
 
